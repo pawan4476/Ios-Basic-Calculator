@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAA5F7DF1D86AFC900467400 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA5F7DE1D86AFC900467400 /* QuartzCore.framework */; };
+		DAA5F7E21D86B7AF00467400 /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA5F7E11D86B7AF00467400 /* RoundButton.m */; };
+		DAAFD0E01D817F0C0032CACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAFD0DF1D817F0C0032CACC /* main.m */; };
+		DAAFD0E31D817F0C0032CACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAFD0E21D817F0C0032CACC /* AppDelegate.m */; };
+		DAAFD0E61D817F0C0032CACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAFD0E51D817F0C0032CACC /* ViewController.m */; };
+		DAAFD0E91D817F0C0032CACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAFD0E71D817F0C0032CACC /* Main.storyboard */; };
+		DAAFD0EB1D817F0C0032CACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAFD0EA1D817F0C0032CACC /* Assets.xcassets */; };
+		DAAFD0EE1D817F0C0032CACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAFD0EC1D817F0C0032CACC /* LaunchScreen.storyboard */; };
+		DAAFD0F91D817F0C0032CACC /* CalciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAFD0F81D817F0C0032CACC /* CalciTests.m */; };
+		DAAFD1041D817F0C0032CACC /* CalciUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAFD1031D817F0C0032CACC /* CalciUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAAFD0F51D817F0C0032CACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAAFD0D31D817F0C0032CACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAAFD0DA1D817F0C0032CACC;
+			remoteInfo = Calci;
+		};
+		DAAFD1001D817F0C0032CACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAAFD0D31D817F0C0032CACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAAFD0DA1D817F0C0032CACC;
+			remoteInfo = Calci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAA5F7DE1D86AFC900467400 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DAA5F7E01D86B7AF00467400 /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundButton.h; sourceTree = "<group>"; };
+		DAA5F7E11D86B7AF00467400 /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundButton.m; sourceTree = "<group>"; };
+		DAAFD0DB1D817F0C0032CACC /* Calci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAFD0DF1D817F0C0032CACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAAFD0E11D817F0C0032CACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAAFD0E21D817F0C0032CACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAAFD0E41D817F0C0032CACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAAFD0E51D817F0C0032CACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAAFD0E81D817F0C0032CACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAAFD0EA1D817F0C0032CACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAAFD0ED1D817F0C0032CACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAAFD0EF1D817F0C0032CACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAFD0F41D817F0C0032CACC /* CalciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAFD0F81D817F0C0032CACC /* CalciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalciTests.m; sourceTree = "<group>"; };
+		DAAFD0FA1D817F0C0032CACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAFD0FF1D817F0C0032CACC /* CalciUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalciUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAFD1031D817F0C0032CACC /* CalciUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalciUITests.m; sourceTree = "<group>"; };
+		DAAFD1051D817F0C0032CACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAAFD0D81D817F0C0032CACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA5F7DF1D86AFC900467400 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAFD0F11D817F0C0032CACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAFD0FC1D817F0C0032CACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAAFD0D21D817F0C0032CACC = {
+			isa = PBXGroup;
+			children = (
+				DAA5F7DE1D86AFC900467400 /* QuartzCore.framework */,
+				DAAFD0DD1D817F0C0032CACC /* Calci */,
+				DAAFD0F71D817F0C0032CACC /* CalciTests */,
+				DAAFD1021D817F0C0032CACC /* CalciUITests */,
+				DAAFD0DC1D817F0C0032CACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAAFD0DC1D817F0C0032CACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAAFD0DB1D817F0C0032CACC /* Calci.app */,
+				DAAFD0F41D817F0C0032CACC /* CalciTests.xctest */,
+				DAAFD0FF1D817F0C0032CACC /* CalciUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAAFD0DD1D817F0C0032CACC /* Calci */ = {
+			isa = PBXGroup;
+			children = (
+				DAAFD0E11D817F0C0032CACC /* AppDelegate.h */,
+				DAAFD0E21D817F0C0032CACC /* AppDelegate.m */,
+				DAAFD0E41D817F0C0032CACC /* ViewController.h */,
+				DAAFD0E51D817F0C0032CACC /* ViewController.m */,
+				DAA5F7E01D86B7AF00467400 /* RoundButton.h */,
+				DAA5F7E11D86B7AF00467400 /* RoundButton.m */,
+				DAAFD0E71D817F0C0032CACC /* Main.storyboard */,
+				DAAFD0EA1D817F0C0032CACC /* Assets.xcassets */,
+				DAAFD0EC1D817F0C0032CACC /* LaunchScreen.storyboard */,
+				DAAFD0EF1D817F0C0032CACC /* Info.plist */,
+				DAAFD0DE1D817F0C0032CACC /* Supporting Files */,
+			);
+			path = Calci;
+			sourceTree = "<group>";
+		};
+		DAAFD0DE1D817F0C0032CACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAAFD0DF1D817F0C0032CACC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAAFD0F71D817F0C0032CACC /* CalciTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAAFD0F81D817F0C0032CACC /* CalciTests.m */,
+				DAAFD0FA1D817F0C0032CACC /* Info.plist */,
+			);
+			path = CalciTests;
+			sourceTree = "<group>";
+		};
+		DAAFD1021D817F0C0032CACC /* CalciUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAAFD1031D817F0C0032CACC /* CalciUITests.m */,
+				DAAFD1051D817F0C0032CACC /* Info.plist */,
+			);
+			path = CalciUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAAFD0DA1D817F0C0032CACC /* Calci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAFD1081D817F0C0032CACC /* Build configuration list for PBXNativeTarget "Calci" */;
+			buildPhases = (
+				DAAFD0D71D817F0C0032CACC /* Sources */,
+				DAAFD0D81D817F0C0032CACC /* Frameworks */,
+				DAAFD0D91D817F0C0032CACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calci;
+			productName = Calci;
+			productReference = DAAFD0DB1D817F0C0032CACC /* Calci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAAFD0F31D817F0C0032CACC /* CalciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAFD10B1D817F0C0032CACC /* Build configuration list for PBXNativeTarget "CalciTests" */;
+			buildPhases = (
+				DAAFD0F01D817F0C0032CACC /* Sources */,
+				DAAFD0F11D817F0C0032CACC /* Frameworks */,
+				DAAFD0F21D817F0C0032CACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAAFD0F61D817F0C0032CACC /* PBXTargetDependency */,
+			);
+			name = CalciTests;
+			productName = CalciTests;
+			productReference = DAAFD0F41D817F0C0032CACC /* CalciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAAFD0FE1D817F0C0032CACC /* CalciUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAAFD10E1D817F0C0032CACC /* Build configuration list for PBXNativeTarget "CalciUITests" */;
+			buildPhases = (
+				DAAFD0FB1D817F0C0032CACC /* Sources */,
+				DAAFD0FC1D817F0C0032CACC /* Frameworks */,
+				DAAFD0FD1D817F0C0032CACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAAFD1011D817F0C0032CACC /* PBXTargetDependency */,
+			);
+			name = CalciUITests;
+			productName = CalciUITests;
+			productReference = DAAFD0FF1D817F0C0032CACC /* CalciUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAAFD0D31D817F0C0032CACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nagam Pawan";
+				TargetAttributes = {
+					DAAFD0DA1D817F0C0032CACC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DAAFD0F31D817F0C0032CACC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DAAFD0DA1D817F0C0032CACC;
+					};
+					DAAFD0FE1D817F0C0032CACC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DAAFD0DA1D817F0C0032CACC;
+					};
+				};
+			};
+			buildConfigurationList = DAAFD0D61D817F0C0032CACC /* Build configuration list for PBXProject "Calci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAAFD0D21D817F0C0032CACC;
+			productRefGroup = DAAFD0DC1D817F0C0032CACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAAFD0DA1D817F0C0032CACC /* Calci */,
+				DAAFD0F31D817F0C0032CACC /* CalciTests */,
+				DAAFD0FE1D817F0C0032CACC /* CalciUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAAFD0D91D817F0C0032CACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAFD0EE1D817F0C0032CACC /* LaunchScreen.storyboard in Resources */,
+				DAAFD0EB1D817F0C0032CACC /* Assets.xcassets in Resources */,
+				DAAFD0E91D817F0C0032CACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAFD0F21D817F0C0032CACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAFD0FD1D817F0C0032CACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAAFD0D71D817F0C0032CACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA5F7E21D86B7AF00467400 /* RoundButton.m in Sources */,
+				DAAFD0E61D817F0C0032CACC /* ViewController.m in Sources */,
+				DAAFD0E31D817F0C0032CACC /* AppDelegate.m in Sources */,
+				DAAFD0E01D817F0C0032CACC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAFD0F01D817F0C0032CACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAFD0F91D817F0C0032CACC /* CalciTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAFD0FB1D817F0C0032CACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAFD1041D817F0C0032CACC /* CalciUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAAFD0F61D817F0C0032CACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAAFD0DA1D817F0C0032CACC /* Calci */;
+			targetProxy = DAAFD0F51D817F0C0032CACC /* PBXContainerItemProxy */;
+		};
+		DAAFD1011D817F0C0032CACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAAFD0DA1D817F0C0032CACC /* Calci */;
+			targetProxy = DAAFD1001D817F0C0032CACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAAFD0E71D817F0C0032CACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAAFD0E81D817F0C0032CACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAAFD0EC1D817F0C0032CACC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAAFD0ED1D817F0C0032CACC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAAFD1061D817F0C0032CACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAAFD1071D817F0C0032CACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAAFD1091D817F0C0032CACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = Calci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.Calci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAAFD10A1D817F0C0032CACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				INFOPLIST_FILE = Calci/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.Calci;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAAFD10C1D817F0C0032CACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalciTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.CalciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calci.app/Calci";
+			};
+			name = Debug;
+		};
+		DAAFD10D1D817F0C0032CACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CalciTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.CalciTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calci.app/Calci";
+			};
+			name = Release;
+		};
+		DAAFD10F1D817F0C0032CACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CalciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.CalciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Calci;
+			};
+			name = Debug;
+		};
+		DAAFD1101D817F0C0032CACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CalciUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.CalciUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Calci;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAAFD0D61D817F0C0032CACC /* Build configuration list for PBXProject "Calci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAFD1061D817F0C0032CACC /* Debug */,
+				DAAFD1071D817F0C0032CACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAAFD1081D817F0C0032CACC /* Build configuration list for PBXNativeTarget "Calci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAFD1091D817F0C0032CACC /* Debug */,
+				DAAFD10A1D817F0C0032CACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAAFD10B1D817F0C0032CACC /* Build configuration list for PBXNativeTarget "CalciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAFD10C1D817F0C0032CACC /* Debug */,
+				DAAFD10D1D817F0C0032CACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAAFD10E1D817F0C0032CACC /* Build configuration list for PBXNativeTarget "CalciUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAAFD10F1D817F0C0032CACC /* Debug */,
+				DAAFD1101D817F0C0032CACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAAFD0D31D817F0C0032CACC /* Project object */;
+}
